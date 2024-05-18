@@ -34,8 +34,15 @@
 					break;
 
 				case '/':
-					res = a / b;
-					Console.WriteLine("Частное = " + res);
+					if(b== 0)
+					{
+						Console.WriteLine("Ошибка. Деление на 0");
+					}
+					else
+					{
+						res = a / b;
+						Console.WriteLine("Частное = " + res);
+					}
 					break;
 
 			}
