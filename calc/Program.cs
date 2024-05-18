@@ -45,6 +45,11 @@
 					}
 					break;
 
+				case '^':
+					res = Math.Pow(a,b);
+					Console.WriteLine($"{a} в степени {b} = {res}");
+					break;
+
 			}
 		}
 	}
